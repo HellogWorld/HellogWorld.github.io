@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  "Hello Algo"
+title:  "Hello(g) World!"
 date:   2022-11-07 21:30:03 +0900
-categories: Intro
+category: [] #One, more categories or no at all.
+author: ideawolf #Author's nick.
+#og_image: assets/example.png #Open Graph preview image.
+og_description: "Hellog World!" #Open Graph description.
+fb_app_id: example
 ---
-Hello Algo....
+Hello(g) World!
 
 `YEAR-MONTH-DAY-title.MARKUP`
 

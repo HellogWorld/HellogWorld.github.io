@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-07T21:57:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">IDEAWOLF BLOG</title><subtitle>&lt;a href=&quot;https://play.google.com/store/apps/developer?id=ideawolf&quot;&gt; 💡 https://play.google.com/store/apps/developer?id=ideawolf 💡 &lt;/a&gt;</subtitle><entry><title type="html">Hello Algo</title><link href="http://localhost:4000/intro/2022/11/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Hello Algo" /><published>2022-11-07T21:30:03+09:00</published><updated>2022-11-07T21:30:03+09:00</updated><id>http://localhost:4000/intro/2022/11/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/intro/2022/11/07/welcome-to-jekyll.html"><![CDATA[<p>Hello Algo….</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-07T22:26:30+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">IDEAWOLF BLOG</title><subtitle>&lt;a target=&quot;_blank&quot; href=&quot;https://play.google.com/store/apps/developer?id=ideawolf&quot;&gt; 💡 https://play.google.com/store/apps/developer?id=ideawolf 💡 &lt;/a&gt;</subtitle><entry><title type="html">Hello(g) World!</title><link href="http://localhost:4000/2022/11/07/HellogWorld_INTRO.html" rel="alternate" type="text/html" title="Hello(g) World!" /><published>2022-11-07T21:30:03+09:00</published><updated>2022-11-07T21:30:03+09:00</updated><id>http://localhost:4000/2022/11/07/HellogWorld_INTRO</id><content type="html" xml:base="http://localhost:4000/2022/11/07/HellogWorld_INTRO.html"><![CDATA[<p>Hello(g) World!</p>
 
 <p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
 
@@ -12,4 +12,39 @@
 <span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
 <span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="Intro" /><summary type="html"><![CDATA[Hello Algo….]]></summary></entry></feed>
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>ideawolf</name></author><category term="[]" /><summary type="html"><![CDATA[Hello(g) World!]]></summary></entry><entry><title type="html">Syntax highlighting example</title><link href="http://localhost:4000/2021/06/16/syntax-example.html" rel="alternate" type="text/html" title="Syntax highlighting example" /><published>2021-06-16T17:05:42+09:00</published><updated>2021-06-16T17:05:42+09:00</updated><id>http://localhost:4000/2021/06/16/syntax-example</id><content type="html" xml:base="http://localhost:4000/2021/06/16/syntax-example.html"><![CDATA[<p>In this post we will have a look at some syntax highlighting abilities.</p>
+
+<p>Here you can see a very simple C++ code snippet:</p>
+
+<figure class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="k">template</span> <span class="o">&lt;</span><span class="k">class</span> <span class="nc">type</span><span class="p">&gt;</span>
+<span class="k">class</span> <span class="nc">Vector</span><span class="p">{</span>
+
+    <span class="nl">private:</span>
+        <span class="n">type</span> <span class="o">*</span><span class="n">data</span><span class="p">;</span>
+        <span class="kt">size_t</span> <span class="n">used</span><span class="p">;</span>
+        <span class="kt">size_t</span> <span class="n">capacity</span><span class="p">;</span>
+
+    <span class="nl">public:</span>
+        <span class="n">Vector</span><span class="p">(</span><span class="kt">size_t</span> <span class="n">elemCount</span><span class="p">){</span>
+
+            <span class="n">data</span> <span class="o">=</span> <span class="k">new</span> <span class="n">type</span><span class="p">[</span><span class="n">elemCount</span><span class="p">];</span>
+            <span class="n">capacity</span> <span class="o">=</span> <span class="n">elemCount</span><span class="p">;</span>
+            <span class="n">used</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="o">~</span><span class="n">Vector</span><span class="p">(){</span>
+            <span class="k">delete</span><span class="p">[]</span> <span class="n">data</span><span class="p">;</span>
+        <span class="p">}</span>
+<span class="p">};</span></code></pre></figure>
+
+<p>The simplex support all the languages supported by Jekyll. For example, bash commands can be highlighted as well:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">bundle <span class="nb">exec </span>jekyll serve <span class="nt">--force-polling</span></code></pre></figure>
+
+<p>You can also create your own highlighting palletes! See <a href="https://github.com/andreondra/jekyll-theme-simplex">simplex readme</a>.</p>
+
+<p>The simplex also includes some simple buttons, which can be used for example at the end of the tutorial:</p>
+<div class="sx-button">
+  <a href="https://www.example.com/" class="sx-button__content red">
+    <img src="/assets/img/icons/down_arrow.svg" />Download the source
+  </a>
+</div>]]></content><author><name>jekyll</name></author><category term="[]" /><summary type="html"><![CDATA[In this post we will have a look at some syntax highlighting abilities.]]></summary></entry><entry><title type="html">Lorem ipsum</title><link href="http://localhost:4000/2021/01/01/lorem_ipsum.html" rel="alternate" type="text/html" title="Lorem ipsum" /><published>2021-01-01T00:00:00+09:00</published><updated>2021-01-01T00:00:00+09:00</updated><id>http://localhost:4000/2021/01/01/lorem_ipsum</id><content type="html" xml:base="http://localhost:4000/2021/01/01/lorem_ipsum.html"><![CDATA[<p>lorem_ipsum</p>]]></content><author><name>ideawolf</name></author><category term="[]" /><summary type="html"><![CDATA[lorem_ipsum]]></summary></entry></feed>
