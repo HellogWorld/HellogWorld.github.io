@@ -34,4 +34,3 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "jekyll-theme-simplex"
 gem 'jekyll-admin', group: :jekyll_plugins
 gem "jekyll-remote-theme"
-  - jekyll-remote-theme
