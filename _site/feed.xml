@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-08T20:54:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">IDEAWOLF BLOG</title><subtitle>&lt;a target=&quot;_blank&quot; href=&quot;https://play.google.com/store/apps/developer?id=ideawolf&quot;&gt; 💡 https://play.google.com/store/apps/developer?id=ideawolf 💡 &lt;/a&gt;</subtitle><entry><title type="html">Hello(g) World!</title><link href="http://localhost:4000/2022/11/07/HellogWorld_INTRO.html" rel="alternate" type="text/html" title="Hello(g) World!" /><published>2022-11-07T21:30:03+09:00</published><updated>2022-11-07T21:30:03+09:00</updated><id>http://localhost:4000/2022/11/07/HellogWorld_INTRO</id><content type="html" xml:base="http://localhost:4000/2022/11/07/HellogWorld_INTRO.html"><![CDATA[<p>Hello(g) World!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-09T00:22:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">IDEAWOLF BLOG</title><subtitle>&lt;a target=&quot;_blank&quot; href=&quot;https://play.google.com/store/apps/developer?id=ideawolf&quot;&gt; 💡 https://play.google.com/store/apps/developer?id=ideawolf 💡 &lt;/a&gt;</subtitle><entry><title type="html">CCW 알고리즘</title><link href="http://localhost:4000/algorithm/2022/11/09/ccw.html" rel="alternate" type="text/html" title="CCW 알고리즘" /><published>2022-11-09T00:00:00+09:00</published><updated>2022-11-09T00:00:00+09:00</updated><id>http://localhost:4000/algorithm/2022/11/09/ccw</id><content type="html" xml:base="http://localhost:4000/algorithm/2022/11/09/ccw.html"><![CDATA[<p>CCW( Counter Clock Wise) 알고리즘은 3개의 점 A, B, C가  있을 때 
+이 점 3개를 이은 직선의 방향을 알고자 할 때 유용한 기하 알고리즘이다.</p>
+
+<p>경우의 수는 총 3가지가 있으며 시계, 반시계, 직선이 있으며 이는 외적을 통하여 구할  수 있으며 외적의 결과가 음수이면 시계 방향, 직선은 0, 반시계 방향일 경우 양수가 나오게 된다.</p>
+
+<p><img src="/assets/img/posts/ccw1.jpg" alt="" /></p>
+
+<p>CCW 알고리즘은 시계반대방향일 때 양수, 시계방향일 때 음수,  평행일 때 0을 반환한다.</p>
+
+<p><img src="/assets/img/posts/ccw3.jpg" alt="" /></p>
+
+<p>A,B,C 순서로 세 점의 방향관계 =&gt; 시계반대방향 관계</p>
+
+<p><img src="/assets/img/posts/ccw4.jpg" alt="" /></p>
+
+<p>A,C,B 순서로 세 점의 방향 관계 =&gt; 시계방향 관계</p>
+
+<p>각각의 점을 A(x1, y1) , B(x2, y2), C(x3, y3) 이라고 좌표를 두고, A,B,C 순서로 방향관계를 구한다면,</p>
+
+<p>CCW 함수의 return값은 <strong>x1y2 + x2y3 + x3y1 - (x2y1 + x3y2 + x1y3)</strong> 이 된다.</p>
+
+<p>이 값이 양수이면 시계반대방향, 음수이면 시계방향, 0이면 평행인 것이다.</p>]]></content><author><name>ideawolf</name></author><category term="algorithm" /><summary type="html"><![CDATA[CCW( Counter Clock Wise) 알고리즘은 3개의 점 A, B, C가 있을 때 이 점 3개를 이은 직선의 방향을 알고자 할 때 유용한 기하 알고리즘이다.]]></summary></entry><entry><title type="html">Hello(g) World!</title><link href="http://localhost:4000/2022/11/07/HellogWorld_INTRO.html" rel="alternate" type="text/html" title="Hello(g) World!" /><published>2022-11-07T21:30:03+09:00</published><updated>2022-11-07T21:30:03+09:00</updated><id>http://localhost:4000/2022/11/07/HellogWorld_INTRO</id><content type="html" xml:base="http://localhost:4000/2022/11/07/HellogWorld_INTRO.html"><![CDATA[<p>Hello(g) World!</p>
 
 <p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
 

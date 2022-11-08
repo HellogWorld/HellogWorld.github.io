@@ -15,24 +15,26 @@
     property="og:title"
     content="
         
-            Libraries
+            CCW 알고리즘
         
     " 
 />
 
-<meta property="og:url" content="http://localhost:4000//category/libs.html" />
+    <meta property="og:description" content="" />
+
+<meta property="og:url" content="http://localhost:4000//algorithm/2022/11/09/ccw.html" />
 
     <meta property="og:type" content="article" />
 
 
 
-    <meta property="fb:app_id" content="" />
+    <meta property="fb:app_id" content="example" />
 
 
 
 <title>
     
-        Libraries
+        CCW 알고리즘
     
 </title>
 </head>
@@ -95,36 +97,61 @@
     </nav>
 </header>
 
-    <section class="feed">
-    <section class="feed__description">
+    <article class="post">
+
+    <div class="post__title">
+        <h1 class="post__title__text">CCW 알고리즘</h1>
+    </div>
+    <div class="post__meta"> 
+        <div class="post__meta__category">
+            
+                <p class="post__meta__category__title" style="background: var(--c-themeHueRed)">Algorithm</p>
+            
+        </div>
+        <p class="post__meta__divider">·</p>
+        <div class="post__meta__date">
+            November 09, 2022
+        </div>
         
-            <h1>Libraries</h1>
+            
+            <p class="post__meta__divider">·</p>
+            <div class="post__meta__author">
+                <p>by </p>
+                <img class="post__meta__author__photo" src="http://localhost:4000/assets/img/authors/ideawolf.png"/>
+                <p>Byeon Sangyeon</p>
+            </div>
         
-        
-            <p>Empty category example.</p>
-        
-    </section>
-     
+    </div>
+
     
-    <section class="snippet snippet_algorithm-2022-11-09-ccw">
-            
-                
-            
-    </section>
-    
-    <section class="snippet snippet_2022-11-07-hellogworld-intro">
-            
-    </section>
-    
-    <section class="snippet snippet_2021-06-16-syntax-example">
-            
-    </section>
-    
-    <section class="snippet snippet_2021-01-01-lorem-ipsum">
-            
-    </section>
-    
-</section>
+
+    <div class="post__content">
+        <p>CCW( Counter Clock Wise) 알고리즘은 3개의 점 A, B, C가  있을 때 
+이 점 3개를 이은 직선의 방향을 알고자 할 때 유용한 기하 알고리즘이다.</p>
+
+<p>경우의 수는 총 3가지가 있으며 시계, 반시계, 직선이 있으며 이는 외적을 통하여 구할  수 있으며 외적의 결과가 음수이면 시계 방향, 직선은 0, 반시계 방향일 경우 양수가 나오게 된다.</p>
+
+<p><img src="/assets/img/posts/ccw1.jpg" alt="" /></p>
+
+<p>CCW 알고리즘은 시계반대방향일 때 양수, 시계방향일 때 음수,  평행일 때 0을 반환한다.</p>
+
+<p><img src="/assets/img/posts/ccw3.jpg" alt="" /></p>
+
+<p>A,B,C 순서로 세 점의 방향관계 =&gt; 시계반대방향 관계</p>
+
+<p><img src="/assets/img/posts/ccw4.jpg" alt="" /></p>
+
+<p>A,C,B 순서로 세 점의 방향 관계 =&gt; 시계방향 관계</p>
+
+<p>각각의 점을 A(x1, y1) , B(x2, y2), C(x3, y3) 이라고 좌표를 두고, A,B,C 순서로 방향관계를 구한다면,</p>
+
+<p>CCW 함수의 return값은 <strong>x1y2 + x2y3 + x3y1 - (x2y1 + x3y2 + x1y3)</strong> 이 된다.</p>
+
+<p>이 값이 양수이면 시계반대방향, 음수이면 시계방향, 0이면 평행인 것이다.</p>
+
+    </div>
+</article>
+
     
     <footer class="footer">
         <section class="footer__about">
