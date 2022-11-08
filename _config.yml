@@ -31,9 +31,11 @@ github_username:  ideawolf
 
 # Build settings
 # theme: jekyll-theme-simplex
-remote_theme: andreondra/jekyll-theme-simplex
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: andreondra/jekyll-theme-simplex
 
 logo_img: /assets/img/icons/golasblog_logo.svg #Absolute path to the logo. If not specified, the title will be displayed instead.
 copyright: © ideawolf #Your copyright.
