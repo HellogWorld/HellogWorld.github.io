@@ -47,8 +47,16 @@ collections:
         output: false
 
 defaults:
-  -
-    scope:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post" #Do not change.
+      # category: [] #One, more categories or no at all.
+      author: "ideawolf" #Author's nick.
+      # og_description: "" #Open Graph description.
+      # fb_app_id: "example"
+  - scope:
       path: ""
       type: category
     values:
