@@ -31,7 +31,7 @@ github_username:  ideawolf
 
 # Build settings
 # theme: jekyll-theme-simplex
-remote_theme: jekyll-theme-simplex
+remote_theme: andreondra/jekyll-theme-simplex
 plugins:
   - jekyll-feed
 
