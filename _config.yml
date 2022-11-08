@@ -30,7 +30,8 @@ twitter_username: ideawolf
 github_username:  ideawolf
 
 # Build settings
-theme: jekyll-theme-simplex
+# theme: jekyll-theme-simplex
+remote_theme: jekyll-theme-simplex
 plugins:
   - jekyll-feed
 
